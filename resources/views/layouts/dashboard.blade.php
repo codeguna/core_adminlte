@@ -104,7 +104,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <!-- Sidebar user panel (optional) -->
                 <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                     <div class="image">
-                        <img src="{{ asset('adminLTE/dist/img/user2-160x160.jpg') }}" class="img-circle elevation-2"
+                        <img src="{{ Auth::User()->avatar }}" class="img-circle elevation-2"
                             alt="User Image">
                     </div>
                     <div class="info">
@@ -147,7 +147,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <footer class="main-footer">
             <!-- To the right -->
             <div class="float-right d-none d-sm-inline">
-                made with ☕ to help your productivity
+                made with ☕ to help your productivity <small>version 1.0.0</small>
             </div>
             <!-- Default to the left -->
             <strong>Copyright <a href="https://www.linkedin.com/in/gunadhip/" target="_blank">
