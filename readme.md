@@ -21,7 +21,7 @@ With that user you can create more roles/permissions/users, and then use them in
 - php artisan make:crud {table_name}
 - php artisan make:crud banks
   
-### Add route in web.php
+### Add route in `web.php`
 - Route::resource('banks', BankController::class);
   
 ## License
